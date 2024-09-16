@@ -1,0 +1,165 @@
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../copycat/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background: #ffffff;
+    height: 560px;
+    width: 420px;
+    position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.div {
+    display: black;
+}
+
+.picture {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sony-logo {
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    border-bottom: 10px;
+    border-color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.playstation-logo {
+    width: 420px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.sign-in {
+    color: black;
+    margin-bottom: 0;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.textbox {
+    margin-bottom: 15px;
+    width: 90%;
+    text-align: center;
+}
+
+.textbox input {
+    padding: 10px;
+    border: 1px solid lightgray;
+    background: #ffffff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.textbox input::placeholder {
+    color: #777;
+}
+
+.place-holder {
+    text-align: center;
+    width: 80%;
+    margin-left: 30px;
+}
+
+.next {
+    width: 78%;
+    padding: 10px;
+    background: #0070d1;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.new {
+    width: 79%;
+    padding: 10px;
+    border: solid 1px;
+    border-color: gray;
+    background: white;
+    color: black;
+    font-size: small;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+}
+
+.next:hover {
+    background: #005bb5;
+}
+
+.new:hover {
+    background-color: lightgray;
+}
+
+.learn {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: small;
+
+}
+
+.links {
+    color: #0070d1;
+    text-decoration: none;
+    font-size: small;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.map {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.links:hover {
+    color: #005bb5;
+}
+
+.map:hover {
+    color: #005bb5;
+}
+
+.map:visited {
+    color: gray;
+}
